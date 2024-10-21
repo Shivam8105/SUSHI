@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="public/sushi.png" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <title>Sushiman</title>
 </head>
 <body>
@@ -12,54 +13,35 @@
     <nav class="header__nav">
       <div class="header__logo">
         <h4 data-aos="fade-down">Sushiman</h4>
-        <div class="header__logo-overlay">
-        </div>
+        <div class="header__logo-overlay"></div>
       </div>
       <ul class="header__menu" data-aos="fade-down">
-        <li>
-          <a href="#menu">Menu</a>
-        </li>
-        <li>
-          <a href="#food">Food</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#about-us">About Us</a>
-        </li>
-        <li>
-          <img src="./public/assets/search.svg" alt="search"/>
-        </li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><img src="./public/assets/search.svg" alt="search"/></li>
       </ul>
       <ul class="header__menu-mobile" data-aos="fade-down">
-        <li>
-          <img src="./public/assets/menu.svg" alt="menu"/>
-        </li>
+        <li><img src="./public/assets/menu.svg" alt="menu"/></li>
       </ul>
     </nav>
   </header>
+  
   <section class="hero">
     <div class="hero-image">
       <img src="./public/assets/sushi-1.png" alt="sushi" data-aos="fade-up"/>
-      <h2 data-aos="fade-up">
-        鮓<br/>
-        鮨<br/> 
-        寿<br/>
-        司<br/>
-      </h2> 
-    <div class="hero-image__overlay"></div>
+      <h2 data-aos="fade-up">鮓<br/> 鮨<br/> 寿<br/> 司<br/></h2>
+      <div class="hero-image__overlay"></div>
     </div>
     <div class="hero-content" data-aos="fade-left">
       <div class="hero-content-info">
         <h1>Feel the taste of the Japanese food</h1>
-        <p>Feel the taste of the most popular Japanese food from anywhere and 
-        anytime.</p>
+        <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
         <div class="hero-content__buttons">
           <button class="hero-content__order-button">Order Now</button>
           <button class="hero-content__play-button">
-            <img src="./public/assets/play-circle.svg" alt="play"/>
-            How to Order
+            <img src="./public/assets/play-circle.svg" alt="play"/> How to Order
           </button>
         </div>
       </div>
@@ -75,15 +57,13 @@
       </div>
     </div>
   </section>
+  
   <section class="about-us" id="about-us">
     <div class="about-us__image">
       <div class="about-us__image-sushi3">
         <img src="./public/assets/sushi-3.png" alt="sushi" data-aos="fade-right"/>
       </div>
-      <button class="about-us__button">
-        Learn More
-        <img src="./public/assets/arrow-right.svg" alt="learn more"/>
-      </button>
+      <button class="about-us__button">Learn More<img src="./public/assets/arrow-right.svg" alt="learn more"/></button>
       <div class="about-us__image-sushi2">
         <img src="./public/assets/sushi-2.png" alt="sushi" data-aos="fade-right"/>
       </div>
@@ -91,85 +71,68 @@
     <div class="about-us__content" data-aos="fade-left">
       <p class="sushi__subtitle">About us / 私たちについて</p>
       <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
-      <p class="sushi__description">We will continue to provide the experience of Omotenashi,the Japanese mindset of hospitality,with our shopping and dinning for our customers.</p>
+      <p class="sushi__description">We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with our shopping and dining for our customers.</p>
     </div>
   </section>
+  
   <section class="popular-foods" id="menu">
-    <h2 class="popular-foods__title" data-aos="flip-up">
-      Popular Food / 人気
-    </h2>
-
+    <h2 class="popular-foods__title" data-aos="flip-up">Popular Food / 人気</h2>
     <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
       <button class="popular-foods__filter-btn active">All</button>
       <button class="popular-foods__filter-btn">
-        <img src="./public/assets/sushi-9.png" alt="sushi-9" />
-        Sushi
+        <img src="./public/assets/sushi-9.png" alt="sushi-9" /> Sushi
       </button>
       <button class="popular-foods__filter-btn">
-        <img src="./public/assets/sushi-8.png" alt="sushi-8" />
-        Ramen
+        <img src="./public/assets/sushi-8.png" alt="sushi-8" /> Ramen
       </button>
       <button class="popular-foods__filter-btn">
-        <img src="./public/assets/sushi-7.png" alt="sushi-7" />
-        Udon
+        <img src="./public/assets/sushi-7.png" alt="sushi-7" /> Udon
       </button>
       <button class="popular-foods__filter-btn">
-        <img src="./public/assets/sushi-6.png" alt="sushi-6" />
-        Danggo
+        <img src="./public/assets/sushi-6.png" alt="sushi-6" /> Danggo
       </button>
       <button class="popular-foods__filter-btn">Others</button>
     </div>
-
+    
     <div class="popular-foods__catalogue" data-aos="fade-up">
       <article class="popular-foods__card">
         <img class="popular-foods__card-image" src="./public/assets/sushi-12.png" alt="sushi-12" />
         <h4 class="popular-foods__card-title">Chezu Sushi</h4>
-
         <div class="popular-foods__card-details flex-between">
           <div class="popular-foods__card-rating">
             <img src="./public/assets/star.svg" alt="star" />
             <p>4.8</p>
           </div>
-
           <p class="popular-foods__card-price">$21.00</p>
         </div>
       </article>
-
-      <!-- active big white card -->
       <article class="popular-foods__card active-card">
         <img class="popular-foods__card-image" src="./public/assets/sushi-11.png" alt="sushi-11" />
         <h4 class="popular-foods__card-title">Originale Sushi</h4>
-
         <div class="popular-foods__card-details flex-between">
           <div class="popular-foods__card-rating">
             <img src="./public/assets/star.svg" alt="star" />
             <p>4.8</p>
           </div>
-
           <p class="popular-foods__card-price">$21.00</p>
         </div>
       </article>
-
       <article class="popular-foods__card">
         <img class="popular-foods__card-image" src="./public/assets/sushi-10.png" alt="sushi-10" />
         <h4 class="popular-foods__card-title">Ramen Legendo</h4>
-
         <div class="popular-foods__card-details flex-between">
           <div class="popular-foods__card-rating">
             <img src="./public/assets/star.svg" alt="star" />
             <p>4.8</p>
           </div>
-
           <p class="popular-foods__card-price">$21.00</p>
         </div>
       </article>
     </div>
-
-    <button class="popular-foods__button">
-      Explore Food
-      <img src="./public/assets/arrow-right.svg" alt="arrow-right" />
-    </button>
+    
+    <button class="popular-foods__button">Explore Food<img src="./public/assets/arrow-right.svg" alt="arrow-right" /></button>
   </section>
+  
   <section class="trending" id="food">
     <section class="trending-sushi">
       <div class="trending__content" data-aos="fade-right">
@@ -338,6 +301,12 @@
       </li>
     </ul>
   </footer>
-  <script src="js/script.js" type="module"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+  </script>
 </body>
 </html>
