@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sushi Website
 
 Welcome to the Sushi Website! This project showcases a visually appealing, responsive website dedicated to sushi lovers. Built with HTML and CSS, it emphasizes a clean design and user-friendly navigation.
@@ -16,5 +15,4 @@ Welcome to the Sushi Website! This project showcases a visually appealing, respo
    git clone https://github.com/yourusername/sushi-website.git
 
 =======
-# sushi
->>>>>>> 9861a8f (initial commit)
+
