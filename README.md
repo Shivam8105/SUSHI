@@ -1,2 +1,16 @@
-# SUSHI
-Sushi Website This project showcases a sushi-themed website built with HTML and CSS. It features a clean and modern design, responsive layout, and sections highlighting various sushi types and menu items. Perfect for sushi lovers or anyone looking to create a food-related site. Explore the code to learn more about web design principles!
+# Sushi Website
+
+Welcome to the Sushi Website! This project showcases a visually appealing, responsive website dedicated to sushi lovers. Built with HTML and CSS, it emphasizes a clean design and user-friendly navigation.
+
+## Features
+
+- **Responsive Design**: Adapts to different screen sizes for optimal viewing.
+- **Modern Aesthetic**: Clean layout with a focus on sushi menu items.
+- **HTML & CSS**: Simple and effective code structure for easy customization.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sushi-website.git
+
